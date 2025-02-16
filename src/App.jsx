@@ -1,5 +1,4 @@
-import { useEffect, useRef, useState } from "react";
-import GeoMap from "./components/Geo";
+import Maps from "./pages/Maps";
 
  
 
@@ -8,7 +7,7 @@ function App() {
     <>
       <h1>Charts</h1>
       <div style={{padding : "1rem"}} >
-        <GeoMap />
+        <Maps />
       </div>
      
     </>
